@@ -55,7 +55,7 @@ python cryptus.py -d -i output.roman -o original.bin --pass "geheim"
 ```bash
 python cryptus_tui.py
 ```
-- **Tab** Pane wechseln • **Space** markieren • **F2** Modus • **F6** Start  
+- **Tab** Pane wechseln • **Space** markieren • **F2** Modus • **F6** Start
 - **F7** Filter (*.roman) • **F8** View • **F9** Keyfile • **p** Passphrase
 
 ---
@@ -84,13 +84,13 @@ diff hello.txt hello.dec && echo OK
 
 ## 🙋 FAQ
 
-**Produziert Cryptus starke Sicherheit?**  
+**Produziert Cryptus starke Sicherheit?**
 Nein – es ist **Lerncode** mit realen Bausteinen, aber ohne Audit.
 
-**Warum römische Zahlen?**  
+**Warum römische Zahlen?**
 Weil’s anschaulich ist: Man *sieht* den Cipher, versteht aber, dass Darstellung ≠ Sicherheit.
 
-**Was, wenn der HMAC-Tag nicht passt?**  
+**Was, wenn der HMAC-Tag nicht passt?**
 Dann war das Passwort falsch oder die Datei beschädigt → Entschlüsselung bricht ab.
 
 ---
@@ -104,6 +104,9 @@ PRs/Issues willkommen! Gute Einstiege:
 - Tests, Benchmarks, Doku
 
 ---
+
+Siehe **CONTRIBUTING.md** und Issues mit Label *good first issue*.
+
 
 ## 📜 Lizenz
 
